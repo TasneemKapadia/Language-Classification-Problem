@@ -1,5 +1,5 @@
 # Language-Classification-Problem
-<p>In this language detection project, I worked 3 languages, namely English, Czech and Slovakian. The training data showed class imbalance. To counter the class imbalance, Multinomal Naive Bayes was used with adjusting 'Laplace smoothening hyperparameter' and setting `fit_prior` to False.
+<p>In this language detection project, I worked with 3 languages, namely English, Czech and Slovakian. The training data showed class imbalance. To counter the class imbalance, Multinomal Naive Bayes was used along with adjustment of 'Laplace smoothening hyperparameter' and setting `fit_prior` to False.
 <p>Another key technique used was Creating Subwords. This breaks the words in the corpus into most frequently occurring sub-words.
  
 ``` 
